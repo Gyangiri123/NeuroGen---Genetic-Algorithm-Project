@@ -10,6 +10,11 @@ __pycache__/
 backend/mnist_noisy/test/**/*.png
 backend/mnist_noisy/train/**/*.png
 
+# JS deps / build artifacts
+node_modules/
+dist/
+build/
+
 # Generated logs
 backend/**/logs/*.txt
 
