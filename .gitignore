@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+
+# Generated MNIST noisy datasets (large and not required for runtime code)
+backend/mnist_noisy/test/**/*.png
+backend/mnist_noisy/train/**/*.png
+
+# Generated logs
+backend/**/logs/*.txt
+
